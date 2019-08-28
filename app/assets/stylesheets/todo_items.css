@@ -1,0 +1,45 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  grid-row-gap: 1rem;
+  margin: 20px;
+}
+
+.field {
+  display: grid;
+  place-items: center;
+}
+
+#todo_item_description {
+  border-radius: 5%;
+}
+
+.actions {
+  display: grid;
+  place-items: center;
+}
+
+.actions input {
+  height: 40px;
+  border-radius: 20px;
+  background-color: teal;
+  transition: all .3s;
+}
+
+.actions input:hover {
+  transform: scale(1.1);
+}
+
+.back {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid teal;
+  height: 50px;
+  width: 140px;
+  border-radius: 25px;
+}
